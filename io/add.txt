@@ -5,3 +5,9 @@ stdio.h 标准输入输出库函数
 
 #include  <stdio.h>
 #include "stdio.h"
+
+%d
+%ld:长整型
+%c
+%s
+%e/%E
