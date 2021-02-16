@@ -1,0 +1,7 @@
+
+stdio.h 标准输入输出库函数
+
+#include 预编译命令
+
+#include  <stdio.h>
+#include "stdio.h"
