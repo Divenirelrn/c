@@ -1,0 +1,14 @@
+
+整个内存主要分为4个区：
+    CODE
+    DATA:常量，static定义的变量等
+    STACK：普通变量
+    HEAP：用户自定义大小
+
+程序的健壮性：
+    while(scanf("%d", &n) != 1)
+
+注释：
+    #if(0)
+    ...
+    #end if
