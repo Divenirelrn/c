@@ -1,10 +1,12 @@
 
 
 #include <math.h>
-
 max
 sqrt
 pow
+
+#include <string.h>
+strcmp: 比较字符串
 
 注释代码段（不参与编译）：
 #if (0)
