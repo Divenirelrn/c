@@ -11,3 +11,9 @@ stdio.h 标准输入输出库函数
 %c
 %s
 %e/%E
+
+include<conio.h>
+getch()
+getche()
+
+printf函数中,对于某一变量，应按照相同类型输出
