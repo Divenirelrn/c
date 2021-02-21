@@ -11,6 +11,7 @@ stdio.h 标准输入输出库函数
 %c
 %s
 %e/%E
+%p 输出地址
 
 include<conio.h>
 getch()
