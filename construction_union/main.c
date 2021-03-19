@@ -9,7 +9,7 @@ int main() {
      * struct 结构名
      * {
      *   成员列表
-     * }
+     * };
      *
      * struct student
      * {
@@ -17,7 +17,7 @@ int main() {
      *   char name[20];
      *   char sex;
      *   int age;
-     * }
+     * };
      *
      * 定义结构体类型变量：
      * 方式一：
@@ -47,7 +47,7 @@ int main() {
      *   int month;
      *   int day;
      *   int year;
-     * }
+     * };
      *
      * struct
      * {
@@ -68,6 +68,8 @@ int main() {
      *   结构体变量的地址通常作为函数参数
      *
      * 结构体变量的初始化：
+     * struct student s1 = {102， “liruonan”, "M", 18};
+     *
      * struct student
      * {
      *   int num;

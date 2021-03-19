@@ -22,6 +22,12 @@
  *         char *a;
  *         a = "I love fishC!";
  *
+ *  void printWork(char text[])
+ *  {
+ *      printf("%s\n", text);
+ *  }
+ *
+ *  printWork(a); 
  *
  *
  */

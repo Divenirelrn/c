@@ -12,6 +12,3 @@
     #if(0)
     ...
     #end if
-
-char arr[] = "asjfhjk";
-strlen(arr); //字符数组的长度

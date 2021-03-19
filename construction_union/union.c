@@ -48,7 +48,25 @@
  * 共用体类型数据的特点：
  *   同一内存段可以用来存放几种不同类型的成员，但在同一瞬间只能存放其中一种，而不是同时存放几种
  *
- *
+ *  union Data
+    {
+      int age;
+      char *name;
+      float score;
+    };
+
+    union Data data;
+
+    data.age = 18;
+    printf("%d\n", data.age);
+
+    data.name = "xiaojun";
+    printf("%s\n", data.name);
+
+    data.score = 99.0;
+    printf("%f\n", data.score);
+
+    return 0;
  *
  *
  *

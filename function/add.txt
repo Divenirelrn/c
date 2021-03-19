@@ -18,3 +18,21 @@ strcmp: 比较字符串
  ...
 #end if
 
+stdlib标准库库函数：
+    atof() 字符串转化为float
+    atoi() 字符串转化为int
+    atol() 字符串转化为long int
+
+    malloc()
+    calloc()
+    free()
+
+    exit()
+    system()
+
+    rand()
+    srand() //随机数种子
+
+string.h标准库文件：
+    strcopy(str, "Hello World");
+    strcat(str, "hello");

@@ -60,11 +60,32 @@ int main() {
      *     exit(0) //终止程序
      *   fgetc:
      *     ch = fgetc(fp);
+
+         FILE *fp;
+         fp = fopen("./xiaojun.txt", "w+");
+    
+         for(int i=0; i<100; i++)
+         {
+             fputc('o', fp);
+         }
+    
+         while(!feof(fp))
+         {
+             char ch = fgetc(fp);
+             printf("%c ", ch);
+         }
+
+
      *   fgets:
      *     fgets(str, n, fp);
      *     从fp所指文件中读出n-1个字符送入字符数组str中（有一个'\0'）
      *   fputs:
      *     fputs("lrn", fp);
+
+         char str[10];
+         fgets(str, 5, fp);
+         printf("%s\n", str);
+
      *   fread与fwrite:
      *     fread(buffer,size,count,fp);
      *     fwrite(buffer,size,count,fp);
@@ -73,9 +94,21 @@ int main() {
      *     对于fwrite,是输出数据的地址
      *     size:要读写的字节数
      *     count:要进行读写多少个size字节的数据项
+
+         char str[10];
+         fread(str, 1, 5, fp);
+         printf("%s\n", str);
+
+         char *p = "ajhscij";
+         fwrite(p, 1, 5, fp);
+         fclose(fp);
+
      *   fprintf
      *     fprintf(文件指针，格式字符串，输出列表);
      *     fscanf(文件指针，格式字符串，输入列表);
+
+         fprintf(fp, "%s, %s, %s, %d\n", "hello", "xiaojun", "love", 2021);
+
      *
      * 顺序读写与随机读写：
      *   顺序读写：

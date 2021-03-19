@@ -23,8 +23,4 @@ int main() {
         }
     }
     return 0;
-	
-	sizeof(arr[0][0]) 一个元素占用空间
-	sizeof(arr[0]) 一行元素占用空间
-	sizeof(arr) 整个二维数组占用空间
 }
