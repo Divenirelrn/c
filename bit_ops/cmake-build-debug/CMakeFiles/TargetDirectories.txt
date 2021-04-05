@@ -1,3 +1,0 @@
-D:/files/github_projects/c/bit_ops/cmake-build-debug/CMakeFiles/bit_ops.dir
-D:/files/github_projects/c/bit_ops/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/files/github_projects/c/bit_ops/cmake-build-debug/CMakeFiles/rebuild_cache.dir

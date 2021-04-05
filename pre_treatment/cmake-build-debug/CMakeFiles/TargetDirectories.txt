@@ -1,3 +1,0 @@
-D:/files/github_projects/c/pre_treatment/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-D:/files/github_projects/c/pre_treatment/cmake-build-debug/CMakeFiles/pre_treatment.dir
-D:/files/github_projects/c/pre_treatment/cmake-build-debug/CMakeFiles/edit_cache.dir

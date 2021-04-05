@@ -1,3 +1,0 @@
-D:/files/github_projects/c/construction_union/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/files/github_projects/c/construction_union/cmake-build-debug/CMakeFiles/construction_union.dir
-D:/files/github_projects/c/construction_union/cmake-build-debug/CMakeFiles/rebuild_cache.dir
